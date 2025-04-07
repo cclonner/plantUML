@@ -3,8 +3,8 @@
 
 
 @startuml
-User -> Payment : PaymenDocument
-Payment -> Accounts: 
+User -> Payments : PaymenDocument
+Payments -> Accounts:  amount. history
 Accounts --> User : JournalList
 deactivate Accounts
-@enduml
+@enduml0я
