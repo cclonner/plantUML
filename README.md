@@ -8,3 +8,6 @@ Payments -> Accounts:  amount. history
 Accounts --> User : JournalList
 deactivate Accounts
 @enduml0я
+
+
+Удалили ветку докс
